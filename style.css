@@ -1,18 +1,28 @@
 body {
   font-family: arial;
-  font-size: 1em;
+  font-size: 0.75em;
+  margin: 0;
 }
 
 #container {
   flex-direction: column;
-  padding: 1%;
-  margin: 0 auto;
+  padding: 0;
+  border: none;
 }
 
-#navigation {
+.navigation {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
+  position: fixed;
+  background-color: black;
+  opacity: 80%;
+  padding: 1%;
+}
+
+.navigation a {
+  color: lightgray;
+  text-decoration: none;
 }
 
 .flex {
