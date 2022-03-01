@@ -55,6 +55,10 @@ h2{
   font-weight: 300;
   padding: -150px;
 }
+a{
+  color: blue;
+  font-family: arial;
+}
 
 .flex {
   display: flex;
