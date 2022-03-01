@@ -19,7 +19,7 @@ body {
   width: 100%;
   position: fixed;
   background-color: black;
-  opacity: 90%;
+  opacity: 85%;
   padding: .5rem;
   
 }
@@ -33,8 +33,8 @@ body {
   flex-direction: row;
   justify-content: center;
   min-width: 100%;
-  padding: 1rem;
-  padding-top: 2rem;
+  padding: .5rem;
+  padding-top: 2.5rem;
   font-size: 1.2em;
 }
 .box {
@@ -42,7 +42,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+h1{
+  color: black; bold;
+  font-family: arial;
+  font-size: 50px;
+}
+h2{
+  color: black;
+  font-family: arial;
+  font-size: 25px;
+  letter-spacing: normal;
+  font-weight: 900px;
+}
 
 .flex {
   display: flex;
