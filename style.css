@@ -55,14 +55,14 @@ h2{
   font-weight: 30;
 }
 h3{
+  font-family: arial;
   font-size: 20px;
-  font-weight: 2-;
 }
 a{
-  color: #3065FC;
-  font-family: arial;
+  color: #4778FC;
+  text-decoration: none;
+  font-weight: 30;
 }
-
 .flex {
   display: flex;
 }
