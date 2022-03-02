@@ -5,6 +5,7 @@ body {
   font-size: 0.73em;
   letter-spacing: 0.03em;
   overflow-x: hidden;
+  position: relative;
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
 }
@@ -93,7 +94,7 @@ h3 {
   margin-bottom: 0.75em;
   background: pink;
   width: 49%;
-  height: 38vh;
+  height: 42vh;
 }
 
 .textbox {
