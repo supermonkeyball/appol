@@ -6,7 +6,7 @@ body {
   letter-spacing: 0.03em;
   overflow-x: hidden;
   position: relative;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 a {
@@ -120,3 +120,11 @@ h3 {
   display: flex;
 }
 
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺'), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
