@@ -1,68 +1,87 @@
 body {
-  font-family: arial;
-  font-size: 0.7rem;
   margin: 0;
   padding: 0;
-  text-align: center;
+  color: #1d1d1f;
+  font-size: 0.73em;
+  letter-spacing: 0.03em;
+  overflow-x: hidden;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
 }
 
-#container {
-  flex-direction: column;
-  padding: 0;
-  border: none;
-}
-
-.navigation {
-  flex-direction: row;
- justify-content:  space-evenly;
-  align-items: center;
-  width: 100%;
-  position: fixed;
-  background-color: black;
-  opacity: 85%;
-  padding: .5rem;
-  
-}
-
-.navigation a {
-  color: lightgray;
+a {
   text-decoration: none;
+   color: dodgerblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.nav {
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  align-items: center;
+  opacity: 92%;
+  padding: 0.75em;
+}
+
+.nav a {
+  color: lightgray;
+  opacity: 92%;
+  margin-left: 1.69em;
+  margin-right: 1.69em;
+}
+
+.subnav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  letter-spacing: normal;
+  background-color: #fafafa;
+  padding: 1em;
+  padding-top: 4em;
+  right: 0;
+  left: 0;
+  width: 100%;
 }
 
 .block {
+  flex-direction: column;
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+  background: lightblue;
+  width: 100%;
+  height: 53vh;
+  left: 0;
+  right: 0;
+}
+
+.halfblock-container {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.halfblock {
   flex-direction: row;
-  justify-content: center;
-  min-width: 100%;
-  padding: .5rem;
-  padding-top: 2.5rem;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+  background: pink;
+  width: 49%;
+  height: 36vh;
 }
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-h1{
-  color: black; bold;
-  font-family: arial;
-  font-size: 50px;
-}
-h2{
-  color: black;
-  font-family: arial;
-  font-size: 25px;
-  letter-spacing: normal;
-  font-weight: 30;
-}
-h3{
-  font-family: arial;
-  font-size: 20px;
-}
-a{
-  color: #4778FC;
-  text-decoration: none;
-  font-weight: 30;
-}
+
 .flex {
   display: flex;
 }
