@@ -121,6 +121,11 @@ h3 {
   overflow: hidden;
 }
 
+.product img {
+  width: 800px;
+  margin-bottom: 0;
+}
+
 
 .flex {
   display: flex;
