@@ -132,6 +132,16 @@ h4 {
   align-self: flex-end;
 }
 
+.product-half {
+   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-half img {
+  height: 70%;
+}
+
 
 .flex {
   display: flex;
