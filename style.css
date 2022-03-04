@@ -147,7 +147,15 @@ h4 {
   flex-direction: column;
   justify-content: center;
   z-index: 999;
-  margin-top: -6em;
+  margin-top: -9em;
+  margin-bottom: 2em;
+}
+
+.textbox-half2 {
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999;
+  margin-top: 3em;
   margin-bottom: 2em;
 }
 
