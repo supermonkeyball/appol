@@ -54,12 +54,12 @@ h4 {
   background-color: black;
   align-items: center;
   opacity: 92%;
-  padding: 0.75em;
 }
 
 .nav a {
   color: lightgray;
   opacity: 92%;
+  align-items: center;
   margin-left: 1.69em;
   margin-right: 1.69em;
 }
@@ -72,7 +72,7 @@ h4 {
   letter-spacing: normal;
   background-color: #fafafa;
   padding: 1em;
-  padding-top: 4em;
+  padding-top: 4.5em;
   right: 0;
   left: 0;
   width: 100%;
