@@ -94,7 +94,7 @@ h4 {
 }
 
 .halfblock {
-  flex-direction: row;
+  flex-direction: column;
   font-size: 1.5em;
   margin-bottom: 0.75em;
   background: pink;
@@ -133,24 +133,27 @@ h4 {
 }
 
 .product-half {
+  flex-direction: column;
    overflow: hidden;
   justify-content: center;
   align-items: center;
 }
 
 
-.textbox {
+.textbox-half {
   flex-direction: column;
   justify-content: center;
-  margin-top: 3em;
+  z-index: 999;
+  margin-top: -2em;
+  margin-bottom: 2em;
 }
 
-.text-title {
+.text-title-half {
   flex-direction: column;
   align-items: center;
 }
 
-.text-link {
+.text-link-half {
   flex-direction: row;
   align-items: center;
    justify-content: center;
